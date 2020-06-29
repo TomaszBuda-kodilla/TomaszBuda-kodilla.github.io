@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://dashboard.heroku.com/apps/limitless-sea-77286/v1/task/';
+  var apiRoot = 'https://limitless-sea-77286.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
